@@ -83,3 +83,7 @@ git commit -m "Initial ai-config"
 - Copilot CLI reads `~/.copilot/copilot-instructions.md` and also instruction files in each project (`AGENTS.md`, `CLAUDE.md`, `.github/copilot-instructions.md`). They add to the global file. A rule repeated in a project file applies twice. Run `/instructions` in the CLI to see what loaded.
 - The Codex and Claude skill folders support the `SKILL.md` format, but I have not tested these skills in those tools.
 - Skills with other fields in the frontmatter may not load in every tool. Keep to `name` and `description`.
+
+## AI Disclosure
+
+This folder and contents contain a mixture of human- and AI-authored files, as well as human- and AI-edited files. Tools used include OpenAI Codex, Anthropic Claude, and Microsoft / GitHub Copilot.
